@@ -1,0 +1,33 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "othyr_rock",
+    "symbol": "*",
+    "color": "light_gray",
+    "name": { "str": "strange rock" },
+    "description": "A rock that almost passes as normal, but doesn't seem quite right.",
+    "material": [ "stone" ],
+    "weight": "500 g",
+    "volume": "250 ml",
+    "longest_side": "8 cm",
+    "bashing": 4,
+    "to_hit": -3
+  },
+  {
+    "type": "GENERIC",
+    "id": "othyr_stick",
+    "symbol": "/",
+    "color": "brown",
+    "name": { "str": "strange stick" },
+    "description": "A respectable length of wood, just big enough to wrap your hand around, but something about this stick is off.",
+    "material": [ "wood" ],
+    "techniques": [ "WBLOCK_1" ],
+    "flags": [ "TRADER_AVOID", "FIREWOOD" ],
+    "weapon_category": [ "BATONS" ],
+    "weight": "1500 g",
+    "volume": "2500 ml",
+    "longest_side": "130 cm",
+    "bashing": 13,
+    "to_hit": -1
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "id": "lancet_kit",
+    "type": "GENERIC",
+    "category": "tools",
+    "name": { "str": "bloodletting set" },
+    "description": "This is a collection of tools for drawing blood, with a bowl for cupping and a blade for 'breathing a vein'.  Use this tool to draw blood, meant for yourself but perhaps this could work on a corpse.",
+    "weight": "260 g",
+    "volume": "260 ml",
+    "price": 1000,
+    "price_postapoc": 60,
+    "to_hit": -4,
+    "cutting": 5,
+    "material": [ "clay", "steel" ],
+    "symbol": ";",
+    "color": "red",
+	"looks_like": "survivor_shavingkit",
+    "use_action": [ "BLOOD_DRAW" ],
+    "flags": [ "SPEAR" ],
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "watertight": true,
+        "rigid": true,
+        "max_contains_volume": "250 ml",
+        "max_contains_weight": "500 g"
+      }
+    ]
+  },
+  {
+    "id": "wishing_well",
+    "type": "TOOL",
+	"category": "tools",
+    "name": { "str": "wishing-well" },
+    "description": "This is something not wholly of reality, using materials that have been altered by the portal storms, bound with silver for stability, and using water as a medium. A vessel nearby holds the vitae needed to fuel the wish-making, if only you had some coins to drop into the crystal clear depths.",
+    "weight": "12359 g",
+    "volume": "2100 ml",
+	"longest_side": "23 cm",
+	"flags": [ "TRADER_AVOID" ],
+    "to_hit": -4,
+    "bashing": 24,
+    "material": [ "stone", "wood", "silver" ],
+    "symbol": "u",
+    "color": "dark_gray",
+	"qualities": [ [ "PORTAL_BOWL", 1 ] ],
+	"looks_like": "bowl_pewter",
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "watertight": true, "ammo_restriction": { "vitae": 1000 } } ]
+  }
+]  

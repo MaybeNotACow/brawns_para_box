@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "brawns_para_box",
+    "name": "Brawns Para-Box",
+    "authors": [ "Brawn" ],
+    "maintainers": [ "Brawn" ],
+    "description": "Adds a way to sacrifice valuable items to the portal-storms, in return for small boons. Also some innawoods stuff, because fun!",
+    "category": "items",
+    "dependencies": [ "dda" ]
+  }
+]

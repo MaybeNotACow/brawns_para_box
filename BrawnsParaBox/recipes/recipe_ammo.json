@@ -1,0 +1,20 @@
+[
+   {
+    "type": "recipe",
+    "activity_level": "NO_EXERCISE",
+    "result": "vitae",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "time": "10 m",
+    "batch_time_factors": [ 20, 1 ],
+    "autolearn": true,
+    "components": [
+      [ [ "animal_blood", 1 ] ],
+      [ [ "blood", 1 ] ],
+      [ [ "mutant_blood", 1 ] ],
+      [ [ "blood_tainted", 1 ] ]
+    ]
+   }
+]

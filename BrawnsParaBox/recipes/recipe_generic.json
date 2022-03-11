@@ -1,0 +1,251 @@
+[   
+   {
+    "result": "othyr_rock",
+    "type": "recipe",
+	"activity_level": "LIGHT_EXERCISE",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_OTHER",
+	"description": "It can take some time, but if you know what your aren't looking for (like this rock), then you can find what shouldn't be there.",
+	"skill_used": "survival",
+	"difficulty": 5,
+	"time": "600 minutes",
+	"autolearn": true,
+	"components": [[[ "rock", 1 ]]]
+   },
+   {
+    "result": "othyr_stick",
+    "type": "recipe",
+	"activity_level": "LIGHT_EXERCISE",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_OTHER",
+	"description": "It can take some time, but if you know what your aren't looking for (like this stick), then you can find what shouldn't be there.",
+	"skill_used": "survival",
+	"difficulty": 5,
+	"time": "600 minutes",
+	"autolearn": true,
+	"components": [[[ "stick", 1 ]]]
+   },
+   {
+    "result": "HandMadeGoldCoin",
+	"type": "recipe",
+	"activity_level": "MODERATE_EXERCISE",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_OTHER",
+	"skill_used": "fabrication",
+	"difficulty": 5,
+	"charges": 24,
+	"time": "60 minutes",
+	"autolearn": true,
+	"qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 } ],
+	"tools": [ [ [ "forge", 75 ] ],[ [ "crucible_clay", -1 ] ], [ [ "tongs", -1 ] ] ],
+	"proficiencies": [
+      { "proficiency": "prof_metalworking" }
+	],
+	"components": [ [ [ "gold_small", 100 ] ] ]
+   },
+   {
+    "result": "HandMadeSilverCoin",
+	"type": "recipe",
+	"activity_level": "MODERATE_EXERCISE",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_OTHER",
+	"skill_used": "fabrication",
+	"difficulty": 5,
+	"charges": 24,
+	"time": "60 minutes",
+	"autolearn": true,
+	"qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 } ],
+	"tools": [ [ [ "forge", 75 ] ],[ [ "crucible_clay", -1 ] ], [ [ "tongs", -1 ] ] ],
+	"proficiencies": [
+      { "proficiency": "prof_metalworking" }
+	],
+	"components": [ [ [ "silver_small", 200 ] ] ]
+   },
+   {
+    "result": "e_scrap",
+	"type": "recipe",
+	"activity_level": "LIGHT_EXERCISE",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_OTHER",
+	"skill_used": "fabrication",
+	"difficulty": 1,
+	"time": "60 minutes",
+	"autolearn": true,
+	"tools": [
+	   [[ "wishing_well", 200 ] ]
+	],
+	"components": [ 
+	   [ [ "HandMadeGoldCoin", 96 ], [ "HandMadeSilverCoin", 96 ] ]
+	]
+   },
+   {
+    "result": "power_supply",
+	"type": "recipe",
+	"activity_level": "LIGHT_EXERCISE",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_OTHER",
+	"skill_used": "fabrication",
+	"difficulty": 1,
+	"time": "60 minutes",
+	"autolearn": true,
+	"tools": [
+	   [[ "wishing_well", 200 ] ]
+	],
+	"components": [ 
+	   [ [ "HandMadeGoldCoin", 96 ], [ "HandMadeSilverCoin", 96 ] ]
+	]
+   },
+   {
+    "result": "circuit",
+	"type": "recipe",
+	"activity_level": "LIGHT_EXERCISE",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_OTHER",
+	"skill_used": "fabrication",
+	"difficulty": 1,
+	"time": "60 minutes",
+	"autolearn": true,
+	"tools": [
+	   [[ "wishing_well", 200 ] ]
+	],
+	"components": [ 
+	   [ [ "HandMadeGoldCoin", 96 ], [ "HandMadeSilverCoin", 96 ] ]
+	]
+   },
+   {
+    "result": "amplifier",
+	"type": "recipe",
+	"activity_level": "LIGHT_EXERCISE",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_OTHER",
+	"skill_used": "fabrication",
+	"difficulty": 1,
+	"time": "60 minutes",
+	"autolearn": true,
+	"tools": [
+	   [[ "wishing_well", 200 ] ]
+	],
+	"components": [ 
+	   [ [ "HandMadeGoldCoin", 96 ], [ "HandMadeSilverCoin", 96 ] ]
+	]
+   },
+   {
+    "result": "polycarbonate_sheet",
+	"type": "recipe",
+	"activity_level": "LIGHT_EXERCISE",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_OTHER",
+	"skill_used": "fabrication",
+	"difficulty": 1,
+	"time": "60 minutes",
+	"autolearn": true,
+	"tools": [
+	   [[ "wishing_well", 200 ] ]
+	],
+	"components": [ 
+	   [ [ "HandMadeGoldCoin", 96 ], [ "HandMadeSilverCoin", 96 ] ]
+	]
+   },
+   {
+    "result": "plastic_chunk",
+	"type": "recipe",
+	"activity_level": "LIGHT_EXERCISE",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_OTHER",
+	"skill_used": "fabrication",
+	"difficulty": 1,
+	"time": "60 minutes",
+	"autolearn": true,
+	"tools": [
+	   [[ "wishing_well", 100 ] ]
+	],
+	"components": [ 
+	   [ [ "HandMadeGoldCoin", 48 ], [ "HandMadeSilverCoin", 48 ] ]
+	]
+   },
+   {
+    "result": "shot_hull",
+	"type": "recipe",
+	"activity_level": "LIGHT_EXERCISE",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_OTHER",
+	"skill_used": "fabrication",
+	"difficulty": 1,
+	"time": "60 minutes",
+	"autolearn": true,
+	"tools": [
+	   [[ "wishing_well", 100 ] ]
+	],
+	"components": [ 
+	   [ [ "HandMadeGoldCoin", 48 ], [ "HandMadeSilverCoin", 48 ] ]
+	]
+   },
+   {
+    "result": "lens_small",
+	"type": "recipe",
+	"activity_level": "LIGHT_EXERCISE",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_OTHER",
+	"skill_used": "fabrication",
+	"difficulty": 1,
+	"time": "60 minutes",
+	"autolearn": true,
+	"tools": [
+	   [[ "wishing_well", 100 ] ]
+	],
+	"components": [ 
+	   [ [ "HandMadeGoldCoin", 96 ], [ "HandMadeSilverCoin", 96 ] ]
+	]
+   },
+   {
+    "result": "light_bulb",
+	"type": "recipe",
+	"activity_level": "LIGHT_EXERCISE",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_OTHER",
+	"skill_used": "fabrication",
+	"difficulty": 1,
+	"time": "60 minutes",
+	"autolearn": true,
+	"tools": [
+	   [[ "wishing_well", 200 ] ]
+	],
+	"components": [ 
+	   [ [ "HandMadeGoldCoin", 240 ], [ "HandMadeSilverCoin", 240 ] ]
+	]
+   },
+   {
+    "result": "seed_sugar_beet",
+	"type": "recipe",
+	"activity_level": "LIGHT_EXERCISE",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_OTHER",
+	"skill_used": "fabrication",
+	"difficulty": 1,
+	"time": "60 minutes",
+	"autolearn": true,
+	"tools": [
+	   [[ "wishing_well", 400 ] ]
+	],
+	"components": [ 
+	   [ [ "HandMadeGoldCoin", 2400 ], [ "HandMadeSilverCoin", 2400 ] ]
+	]
+   },
+   {
+    "result": "shotgun_d",
+	"type": "recipe",
+	"activity_level": "LIGHT_EXERCISE",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_OTHER",
+	"skill_used": "fabrication",
+	"difficulty": 1,
+	"time": "60 minutes",
+	"autolearn": true,
+	"tools": [
+	   [[ "wishing_well", 800 ] ]
+	],
+	"components": [ 
+	   [ [ "HandMadeGoldCoin", 960 ], [ "HandMadeSilverCoin", 960 ] ]
+	]
+   }
+]   

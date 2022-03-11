@@ -1,0 +1,21 @@
+[
+  {
+    "id": "vitae",
+    "type": "AMMO",
+    "name": { "str_sp": "vitae" },
+    "description": "A viscous mix of all kinds of blood, human and animal, and less natural forms. Strangely, this hasn't clotted or seemed to go off yet...",
+    "weight": "1 g",
+    "volume": "200 ml",
+    "price": 20,
+    "price_postapoc": 100,
+    "count": 250,
+    "stack_size": 200,
+    "phase": "liquid",
+    "container": "jug_clay",
+    "material": [ "blood" ],
+    "symbol": "~",
+    "color": "red",
+	"looks_like": "mutant_blood",
+    "ammo_type": "vitae"
+  }
+]

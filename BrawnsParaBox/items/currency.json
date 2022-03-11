@@ -1,0 +1,36 @@
+[
+  {
+    "type": "AMMO",
+    "category": "currency",
+    "id": "HandMadeGoldCoin",
+    "name": { "str": "gold flat-slug" },
+    "description": "This is a small gold coin, or at least the best that can be made with hands and manual tools.  No etching or engraving lays on the faces, but the weight and shape promises some value, even if only a token gesture.",
+    "price": 5000,
+    "price_postapoc": 400,
+    "weight": "12 g",
+    "volume": "2ml",
+    "to_hit": -3,
+    "color": "yellow",
+	"ammo_type": "components",
+	"count": 24,
+    "symbol": "o",
+    "material": [ "gold" ]
+  },
+  {
+    "type": "AMMO",
+    "category": "currency",
+    "id": "HandMadeSilverCoin",
+    "name": { "str": "silver flat-slug" },
+    "description": "This is a small silver coin, or at least the best that can be made with manual tools.  No etching or engraving lays on the faces, but the weight and shape promises some value, even if only a token gesture.",
+    "price": 2500,
+    "price_postapoc": 200,
+    "weight": "12 g",
+    "volume": "2ml",
+    "to_hit": -3,
+    "color": "light_gray",
+	"ammo_type": "components",
+	"count": 24,
+    "symbol": "o",
+    "material": [ "silver" ]
+  }
+]

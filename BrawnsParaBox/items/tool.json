@@ -45,5 +45,28 @@
 	"qualities": [ [ "PORTAL_BOWL", 1 ] ],
 	"looks_like": "bowl_pewter",
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "watertight": true, "ammo_restriction": { "vitae": 1000 } } ]
+  },
+  {
+    "id": "bp_diesel_jackhammer",
+    "type": "TOOL",
+    "name": { "str": "modified jackhammer" },
+    "description": "This is a construction tool for drilling through hard rock or other surfaces.  With extensive modification it now operates from diesel.  Use it (if loaded) to blast a hole in adjacent solid terrain.",
+    "weight": "27215 g",
+    "volume": "5 L",
+    "longest_side": "92 cm",
+    "price": 40000,
+    "price_postapoc": 1000,
+    "to_hit": -8,
+    "bashing": 14,
+    "cutting": 6,
+    "material": [ "steel" ],
+    "symbol": ";",
+    "color": "light_gray",
+    "ammo": [ "diesel" ],
+    "//": "Consumes 0.6 L/h",
+    "charges_per_use": 300,
+    "use_action": [ "JACKHAMMER" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "watertight": true, "ammo_restriction": { "diesel": 1200 } } ],
+    "flags": [ "STAB", "DIG_TOOL", "POWERED" ]
   }
 ]  

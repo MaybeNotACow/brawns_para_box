@@ -79,6 +79,23 @@
 	]
    },
    {
+    "result": "1cyl_combustion_small",
+	"type": "recipe",
+	"activity_level": "LIGHT_EXERCISE",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_OTHER",
+	"skill_used": "fabrication",
+	"difficulty": 1,
+	"time": "60 minutes",
+	"autolearn": true,
+	"tools": [
+	   [[ "wishing_well", 600 ] ]
+	],
+	"components": [ 
+	   [ [ "HandMadeGoldCoin", 480 ], [ "HandMadeSilverCoin", 480 ] ]
+	]
+   },
+   {
     "result": "power_supply",
 	"type": "recipe",
 	"activity_level": "LIGHT_EXERCISE",
@@ -198,23 +215,6 @@
 	]
    },
    {
-    "result": "light_bulb",
-	"type": "recipe",
-	"activity_level": "LIGHT_EXERCISE",
-	"category": "CC_OTHER",
-	"subcategory": "CSC_OTHER_OTHER",
-	"skill_used": "fabrication",
-	"difficulty": 1,
-	"time": "60 minutes",
-	"autolearn": true,
-	"tools": [
-	   [[ "wishing_well", 200 ] ]
-	],
-	"components": [ 
-	   [ [ "HandMadeGoldCoin", 240 ], [ "HandMadeSilverCoin", 240 ] ]
-	]
-   },
-   {
     "result": "seed_sugar_beet",
 	"type": "recipe",
 	"activity_level": "LIGHT_EXERCISE",
@@ -246,6 +246,40 @@
 	],
 	"components": [ 
 	   [ [ "HandMadeGoldCoin", 960 ], [ "HandMadeSilverCoin", 960 ] ]
+	]
+   },
+   {
+    "result": "silver_watch",
+	"type": "recipe",
+	"activity_level": "LIGHT_EXERCISE",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_OTHER",
+	"skill_used": "fabrication",
+	"difficulty": 1,
+	"time": "60 minutes",
+	"autolearn": true,
+	"tools": [
+	   [[ "wishing_well", 200 ] ]
+	],
+	"components": [ 
+	   [ [ "HandMadeGoldCoin", 96 ], [ "HandMadeSilverCoin", 96 ] ]
+	]
+   },
+   {
+    "result": "foot_crank",
+	"type": "recipe",
+	"activity_level": "LIGHT_EXERCISE",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_OTHER",
+	"skill_used": "fabrication",
+	"difficulty": 1,
+	"time": "60 minutes",
+	"autolearn": true,
+	"tools": [
+	   [[ "wishing_well", 200 ] ]
+	],
+	"components": [ 
+	   [ [ "HandMadeGoldCoin", 48 ], [ "HandMadeSilverCoin", 48 ] ]
 	]
    }
 ]   

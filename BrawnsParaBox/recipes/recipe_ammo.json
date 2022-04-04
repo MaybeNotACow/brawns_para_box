@@ -13,8 +13,7 @@
     "components": [
       [ [ "animal_blood", 1 ] ],
       [ [ "blood", 1 ] ],
-      [ [ "mutant_blood", 1 ] ],
-      [ [ "blood_tainted", 1 ] ]
+      [ [ "mutant_blood", 1 ] ]
     ]
    }
 ]

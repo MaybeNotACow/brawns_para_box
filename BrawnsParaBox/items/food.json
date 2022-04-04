@@ -1,0 +1,18 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "forage_porridge",
+    "copy-from": "buckwheat",
+    "name": { "str_sp": "forage porridge" },
+    "weight": "247 g",
+    "spoils_in": "10 days",
+    "comestible_type": "FOOD",
+    "symbol": "%",
+	"quench": 1,
+	"looks_like": "oatmeal_deluxe",
+    "description": "Simple buckwheat porridge made tasty with the addition of some fruit, whether fresh or preserved.",
+    "flags": [ "EATEN_HOT" ],
+	"healthy": 2,
+    "fun": 2
+  }
+]

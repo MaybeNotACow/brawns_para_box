@@ -1,0 +1,20 @@
+[
+  {
+    "result": "plastic_clump",
+    "type": "uncraft",
+    "activity_level": "LIGHT_EXERCISE",
+    "skill_used": "fabrication",
+    "time": "5 m",
+    "qualities": [ { "id": "CUT", "level": 2 } ],
+    "components": [ [ [ "plastic_chunk", 2 ] ] ]
+  },
+  {
+    "result": "sugar_beet_seedpack",
+    "type": "uncraft",
+    "activity_level": "LIGHT_EXERCISE",
+    "skill_used": "fabrication",
+    "time": "1 m",
+    "qualities": [ { "id": "CUT", "level": 2 } ],
+    "components": [ [ [ "seed_sugar_beet", 4 ], [ "paper", 2 ] ] ]
+  }
+]

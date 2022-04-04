@@ -47,6 +47,35 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "watertight": true, "ammo_restriction": { "vitae": 1000 } } ]
   },
   {
+    "id": "pocket_fire_box",
+	"type": "TOOL",
+	"category": "tool",
+	"name": "tinderbox",
+	"description": "This is a small wooden box, containing a firestriker and flint, along with some tinder for making embers. Use this to easily start fires.",
+	"weight": "650 g",
+    "volume": "250 ml",
+    "price": 300,
+    "price_postapoc": 250,
+    "to_hit": -1,
+    "material": [ "stone", "steel", "wood" ],
+	"symbol": ",",
+	"color": "brown",
+	"looks_like": "leather_journal",
+	"ammo": [ "tinder" ],
+	"charges_per_use": 2,
+	"pocket_data": [
+	  {
+	    "pocket_type": "MAGAZINE",
+		"rigid": true,
+		"airtight": true,
+		"ammo_restriction": { "tinder": 100 },
+		"watertight": true
+	  }
+	],
+	"use_action": { "type": "firestarter", "moves": 1000, "moves_slow": 5000 },
+	"flags": [ "FIRESTARTER" ]
+	},
+	{
     "id": "bp_diesel_jackhammer",
     "type": "TOOL",
     "name": { "str": "modified jackhammer" },

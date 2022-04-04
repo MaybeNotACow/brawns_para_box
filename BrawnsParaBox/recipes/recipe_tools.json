@@ -3,8 +3,8 @@
     "result": "wishing_well",
 	"type": "recipe",
 	"activity_level": "MODERATE_EXERCISE",
-	"category": "CC_OTHER",
-	"subcategory": "CSC_OTHER_OTHER",
+	"category": "CC_PARADOX",
+	"subcategory": "CSC_PARADOX_CRAFT",
 	"skill_used": "fabrication",
 	"difficulty": 5,
 	"time": "240 minutes",
@@ -22,6 +22,34 @@
 	]
    },
    {
+    "result": "lancet_kit",
+	"type": "recipe",
+	"activity_level": "NO_EXERCISE",
+	"category": "CC_PARADOX",
+	"subcategory": "CSC_PARADOX_CRAFT",
+	"skill_used": "fabrication",
+	"difficulty": 1,
+	"time": "2 minutes",
+	"autolearn": true,
+	"components": [
+	   [ [ "xacto", 1 ] ],
+	   [ [ "bowl_clay", 1 ] ] 
+	]
+	},
+	{
+    "type": "recipe",
+	"result": "pocket_fire_box",
+	"id_suffix": "better_flint_steel_in_box",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_TOOLS",
+	"skill_used": "survival",
+	"difficulty": 4,
+	"time": "30 minutes",
+	"autolearn": true,
+	"qualities": [ { "id": "CUT", "level": 2 }, { "id": "SAW_W", "level": 1 } ],
+	"components": [ [ [ "flint_steel", 1 ] ], [ [ "2x4", 2 ] ], [ [ "bone_glue", 4 ] ] ]
+	},
+	{
     "type": "recipe",
     "activity_level": "MODERATE_EXERCISE",
     "result": "bp_diesel_jackhammer",
@@ -32,7 +60,7 @@
     "time": "6 h",
     "reversible": true,
     "decomp_learn": 5,
-    "book_learn": [ [ "textbook_mechanics", 5 ], [ "textbook_carpentry", 5 ], [ "book_icef", 6 ] ],
+    "autolearn": true,
     "using": [ [ "welding_standard", 10 ] ],
     "proficiencies": [
       { "proficiency": "prof_metalworking" },
@@ -41,28 +69,13 @@
     ],
     "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "SCREW", "level": 1 }, { "id": "WRENCH", "level": 1 } ],
     "components": [
-      [ [ "jackhammer", 1 ] ],
+      [ [ "1cyl_combustion_small", 1 ] ],
       [ [ "metal_tank_little", 1 ] ],
       [ [ "steel_chunk", 4 ] ],
-	  [ [ "scrap_copper" ], 10 ],
-	  [ [ "makeshift_hose" ], 2 ],
-	  [ [ "wire" ], 6 ],
+	  [ [ "scrap_copper", 10 ] ],
+	  [ [ "makeshift_hose", 2 ] ],
+	  [ [ "wire", 6 ] ],
       [ [ "scrap", 10 ] ]
     ]
-   },
-   {
-    "result": "lancet_kit",
-	"type": "recipe",
-	"activity_level": "NO_EXERCISE",
-	"category": "CC_OTHER",
-	"subcategory": "CSC_OTHER_OTHER",
-	"skill_used": "fabrication",
-	"difficulty": 1,
-	"time": "2 minutes",
-	"autolearn": true,
-	"components": [
-	   [ [ "xacto", 1 ] ],
-	   [ [ "bowl_clay", 1 ] ] 
-	]
-	}
+   }
 ]

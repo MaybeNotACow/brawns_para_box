@@ -1,0 +1,12 @@
+[
+  {
+    "type": "recipe_category",
+    "id": "CC_PARADOX",
+    "recipe_subcategories": [
+     "CSC_ALL",
+     "CSC_PARADOX_SEARCH",
+	 "CSC_PARADOX_CRAFT",
+     "CSC_PARADOX_TRADE"
+    ]
+  }
+]
